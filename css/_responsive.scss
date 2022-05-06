@@ -1,0 +1,24 @@
+@media screen and (max-width:992px) {
+    .jumbotron {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &-text {
+            width: 80%;
+            margin: auto;
+        }
+
+        form {
+            flex-direction: column !important;
+        }
+    }
+
+    .navbar {
+        &-collapse {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+}

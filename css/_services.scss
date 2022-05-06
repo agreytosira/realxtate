@@ -1,0 +1,70 @@
+.services {
+    padding: 10rem 0rem;
+    background-color: #F5F6F8;
+
+    &-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    img {
+        width: 85%;
+    }
+
+    h2 {
+        display: flex;
+        align-items: center;
+
+        &::after {
+            margin-left: 1rem;
+            content: '';
+            display: inline-block;
+            width: 10%;
+            height: 3px;
+            border-radius: 100rem;
+            background-color: $secondary;
+        }
+    }
+
+    p {
+        color: $secondary-text-dark;
+    }
+
+    ol {
+        list-style: none;
+        counter-reset: my-awesome-counter;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        padding: 0;
+
+        li {
+            counter-increment: my-awesome-counter;
+            width: 80%;
+            display: flex;
+            align-items: center;
+            font-size: 1rem;
+            margin: 1rem 0;
+
+
+            &::before {
+                text-align: center;
+                display: block;
+                min-width: 50px;
+                padding: .5rem 1rem;
+                background-color: $secondary;
+                content: counter(my-awesome-counter);
+                font-weight: bold;
+                font-size: 20px;
+                margin-right: 1rem;
+                color: $primary-text;
+                background-color: $secondary-div;
+                border-radius: .5rem;
+            }
+        }
+    }
+
+
+
+
+}

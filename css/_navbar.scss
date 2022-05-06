@@ -1,0 +1,42 @@
+.navbar {
+    padding: 2rem 1rem;
+    background-color: $primary;
+    transition: all 0.3s ease;
+
+    a {
+        color: #fff !important;
+    }
+
+    span {
+        color: $secondary;
+    }
+
+    &-brand {
+        font-weight: 700;
+    }
+
+    .btn-primary {
+        padding: .5rem 2rem !important;
+        background-color: $secondary;
+        border-radius: .5rem;
+        margin: 0px .5rem;
+    }
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
+
+.scrolled {
+    background-color: #fff !important;
+    box-shadow: 0px 5px 25px rgba($color: #000, $alpha: 0.2);
+
+    a {
+        color: $primary-text !important;
+    }
+
+    .btn-primary {
+        color: #fff !important;
+    }
+}

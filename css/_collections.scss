@@ -1,0 +1,72 @@
+.collections {
+    margin: 10rem 0;
+
+
+    a {
+        text-decoration: none;
+        color: #000;
+    }
+
+    &-detail {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        &-right {
+            color: #0A9F82;
+            font-weight: 700;
+        }
+    }
+
+    &-heading {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 2rem;
+
+        a {
+            color: #fff;
+        }
+
+        &-left {
+            h2 {
+                &::before {
+                    content: '';
+                    display: block;
+                    height: 5px;
+                    width: 20%;
+                    background-color: $secondary;
+                    border-radius: 100px;
+                    margin-bottom: .5rem;
+                }
+            }
+        }
+    }
+
+    &-type {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: .5rem 1rem;
+        background-color: #fff;
+        border-bottom-right-radius: 1rem;
+    }
+
+    &-box {
+        position: relative;
+        border-radius: 1rem;
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+
+        img {
+            width: 100%;
+            border-radius: 1rem;
+        }
+    }
+
+
+}
