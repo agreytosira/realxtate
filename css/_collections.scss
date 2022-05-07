@@ -34,8 +34,8 @@
                 &::before {
                     content: '';
                     display: block;
-                    height: 5px;
                     width: 20%;
+                    height: 3px;
                     background-color: $secondary;
                     border-radius: 100px;
                     margin-bottom: .5rem;

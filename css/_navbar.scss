@@ -5,6 +5,11 @@
 
     a {
         color: #fff !important;
+        transition: all 0.3s ease;
+
+        &:hover {
+            color: $secondary !important;
+        }
     }
 
     span {
@@ -20,6 +25,11 @@
         background-color: $secondary;
         border-radius: .5rem;
         margin: 0px .5rem;
+
+        &:hover {
+            color: #fff !important;
+            background-color: darken($secondary, 20%);
+        }
     }
 }
 
