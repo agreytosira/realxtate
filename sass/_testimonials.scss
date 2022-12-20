@@ -27,15 +27,28 @@
         }
     }
 
+    &-image {
+        img {
+            border-radius: 100%;
+        }
+    }
+
     &-profile {
+        margin-top: 1rem;
+        display: flex;
+        gap: 1rem;
+        align-items: center;
 
         h5 {
             font-size: 16px;
+            margin: 0;
+            margin-bottom: .25rem;
         }
 
         p {
             font-size: 14px;
             color: $secondary-text-dark;
+            margin-bottom: 0;
         }
     }
 

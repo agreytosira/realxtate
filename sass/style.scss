@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -19,6 +21,11 @@ h5 {
 // Utilities
 @import 'colors';
 @import 'button';
+
+
+p {
+    color: $secondary-text-dark;
+}
 
 // Components
 @import 'navbar';

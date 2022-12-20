@@ -1,15 +1,16 @@
 .btn {
-
     &-primary {
+        display: inline-block;
         background-color: $secondary;
         font-weight: 600 !important;
-        padding: 1rem 2rem;
+        padding: .75rem 1.5rem !important;
         text-decoration: none;
         border-radius: .5rem;
         transition: all 0.3s ease;
 
         &:hover {
-            background-color: darken($secondary, 20%);
+            background-color: darken($secondary, 10%) !important;
+            color: #fff !important;
         }
     }
 }

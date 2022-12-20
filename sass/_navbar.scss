@@ -3,6 +3,22 @@
     background-color: $primary;
     transition: all 0.3s ease;
 
+    &-nav {
+        gap: 1rem;
+    }
+
+    &-brand {
+        &:hover {
+            color: #fff !important;
+        }
+    }
+
+    a.btn-primary {
+        &:hover {
+            color: #fff !important;
+        }
+    }
+
     a {
         color: #fff !important;
         transition: all 0.3s ease;
@@ -20,16 +36,10 @@
         font-weight: 700;
     }
 
-    .btn-primary {
-        padding: .5rem 2rem !important;
-        background-color: $secondary;
-        border-radius: .5rem;
-        margin: 0px .5rem;
-
-        &:hover {
-            color: #fff !important;
-            background-color: darken($secondary, 20%);
-        }
+    &-button {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
     }
 }
 
