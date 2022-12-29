@@ -106,16 +106,17 @@ p {
 }
 .jumbotron form {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 1rem;
   padding: 2rem;
   background-color: #fff;
   color: #120E25;
   border-radius: 0.5rem;
 }
-.jumbotron input[type=text] {
+.jumbotron select {
   padding: 0.5rem 1rem;
   border: none;
+  border-right: 1rem solid #E7E5F9;
   outline: none;
   background-color: #E7E5F9;
   font-weight: 600;
@@ -398,6 +399,17 @@ p {
   }
   .jumbotron form {
     flex-direction: column !important;
+  }
+  .jumbotron form > * {
+    width: 100% !important;
+  }
+  .jumbotron form select {
+    display: block;
+    width: 100% !important;
+  }
+  .jumbotron form option {
+    font-size: 12px;
+    max-width: 50% !important;
   }
   .navbar-collapse {
     flex-direction: column;

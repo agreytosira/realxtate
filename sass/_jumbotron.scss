@@ -20,21 +20,22 @@
 
     form {
         display: inline-flex;
-        align-items: center;
+        align-items: flex-end;
         gap: 1rem;
         padding: 2rem;
         background-color: #fff;
         color: $primary-text;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
     }
 
-    input[type=text] {
-        padding: .5rem 1rem;
+    select {
+        padding: 0.5rem 1rem;
         border: none;
+        border-right: 1rem solid $secondary-div;
         outline: none;
         background-color: $secondary-div;
         font-weight: 600;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
     }
 
     label {
@@ -48,7 +49,7 @@
         text-decoration: none;
         color: #fff;
         padding: 1rem 1.5rem;
-        border-radius: .5rem;
+        border-radius: 0.5rem;
         outline: none;
         border: none;
     }

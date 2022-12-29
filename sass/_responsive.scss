@@ -1,4 +1,4 @@
-@media screen and (max-width:992px) {
+@media screen and (max-width: 992px) {
     .jumbotron {
         text-align: center;
         display: flex;
@@ -12,6 +12,22 @@
 
         form {
             flex-direction: column !important;
+            // justify-content: center;
+            // align-items: center;
+
+            & > * {
+                width: 100% !important;
+            }
+
+            select {
+                display: block;
+                width: 100% !important;
+            }
+
+            option {
+                font-size: 12px;
+                max-width: 50% !important;
+            }
         }
     }
 
