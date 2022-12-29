@@ -253,19 +253,26 @@ p {
   padding: 0.5rem 1rem;
   background-color: #fff;
   border-bottom-right-radius: 1rem;
+  z-index: 10;
 }
 .collections-box {
   position: relative;
   border-radius: 1rem;
   transition: all 0.3s ease;
+  overflow: hidden;
 }
-.collections-box:hover {
-  transform: scale(1.1);
+.collections-box:hover img {
+  transform: scale(1.2);
 }
 .collections-box img {
+  transition: all 0.3s ease;
   width: 100%;
   border-radius: 1rem;
   aspect-ratio: 2/3;
+}
+.collections-image {
+  overflow: hidden;
+  border-radius: 1rem;
 }
 
 .testimonials {
